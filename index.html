@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e4e3df">
+  <title>Авантиз · расчёт мебели</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <span class="brand-name">Авантиз</span>
+        <span class="brand-sub">мебель на заказ · Москва</span>
+      </div>
+      <div class="progress" aria-hidden="true"><span class="progress-fill" id="progress"></span></div>
+      <p class="step-count" id="count"></p>
+    </header>
+
+    <main class="screen" id="screen" tabindex="-1"></main>
+
+    <footer class="bar" id="bar">
+      <button type="button" class="btn btn-ghost" id="back">Назад</button>
+      <button type="button" class="btn btn-main" id="next" disabled>Далее</button>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
